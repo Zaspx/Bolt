@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bolt</title>
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <link rel="icon" href="Favicon.png"/>
+    <script>
+        function url() {
+          var x = document.getElementById("username").value;
+          window.open(`/panel?user=${x}`)
+        }
+        </script>
+    <style>
+        body {
+            color: #fff;
+            font-family: Rubik, sans-serif;
+            background: rgb(255,102,25);
+            background: linear-gradient(127deg, rgba(255,102,25) 80%, rgba(255,102,25) 88%);
+        }
+    </style>>
+</head>
+
+<body style="padding: 170px;">
+    <div style="text-align: center; opacity: 0.7;  width: 100%; height: auto;">
+        <p style="font-family:'burbank'; font-size: 80px; text-shadow: 2px 2px #000000;
+        ">Bolt
+        </p>
+    </div>>
+    <div class="item button-100" style="--bg-color:#2ecc71; text-align: center;">
+        <br>
+        <br>
+        <button onclick="window.open('https://discord.gg/43JGQgYHyH','_blank')">Join Discord
+        </button>
+        <br>
+        <br>
+        <input type="text" placeholder="AccountID" id="username" class="form-container" name="username" required>
+        <button onclick="url()">Login
+        </button>
+        <div class="name" style="padding: 50px">Made by <a href="https://zpxx-1.pazerk.repl.co/"target="_blank">Zaspx, VampX, And Stormzy</a></div>
+        <div class="footer"
+            style="position: fixed; left: 0; bottom: 0; width: 100%; background-color: rgb(0, 0, 0, .5); text-align: center;">
+            <p>Bolt Was Developed On 2/2/21</p>
+            <p>Need Help? Dm Zaspx#0001 Or VampX#0001</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
